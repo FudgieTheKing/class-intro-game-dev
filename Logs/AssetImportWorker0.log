@@ -216,3 +216,4 @@ Received Import Request.
 Start importing Assets/materials/wooden.mat using Guid(ed09e2b1f4e6cd34f8f07e7b678ba0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508d2671613bb524609e87c6891ecab1') in 0.032240 seconds 
   Import took 0.039505 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
