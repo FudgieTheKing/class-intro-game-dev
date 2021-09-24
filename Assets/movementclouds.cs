@@ -13,16 +13,16 @@ public class movementclouds : MonoBehaviour
     {
         //get current game object postition
         Vector3 temp = this.transform.position;
-        if (temp.x <= 32)
+        if (temp.z <= 32)
         {
             //add to the x of our current postion
-            temp.x += speed * Time.deltaTime;
+            temp.z += speed * Time.deltaTime;
             //setting current postion to temp
             this.transform.position = temp;
         }
         else
         {
-            temp.x = -26f;
+            temp.z = -26f;
             this.transform.position = temp;
         }
     }
