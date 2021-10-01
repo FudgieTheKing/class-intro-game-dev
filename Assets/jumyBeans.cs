@@ -18,15 +18,8 @@ public class jumyBeans : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             print("Down");
+            rb.AddForce(0, 50, 0, ForceMode.Impulse);
         }
-        else if (Input.GetButton("Jump"))
-        {
-            print("Hold");
 
-        }
-        else if (Input.GetButtonUp("Jump"))
-        {
-            print("Up");
-        }
     }
 }
